@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header{
+	background-image: url(../../img/header_bg.jpg);
+	height: 700px;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: 1;
+}
+
+.header-content_1{
+	z-index: 9999;
+	text-align: center;
+}
+
+.brand a{
+	font-family: 'PT Sans', sans-serif;
+	text-decoration: none;
+	color: black;
+}
+
+.brand a:hover{
+	color: #61b15a;
+	transition: 0.2s ease all;
+}
+
+.navbar-toggler-icon{
+
+}
+
+.navbar-custom{
+	font-size: 20px;
+	margin-left: 250px;
+}
+
+.navbar-light .navbar-nav .nav-item a{
+	color: black;
+}	
+
+.navbar-light .navbar-nav .nav-item a:hover{
+	/* font-size: 21px; */
+    transform: scale(1.1);
+	transition: 0.2s ease all;
+	color: #61b15a;
+}
+
+.header-content_2{
+	z-index: 9999;
+	margin-top: 190px;
+}
+
+.header-content_2 h1{
+	padding: 15px 0 20px 0;
+	font-size: 50px;
+}
+
+.header-content_2 p{
+	padding-bottom: 10px;
+	font-size: 18px;
+}
+
+.button-custom{
+	font-size: 30px;
+	font-family: 'PT Sans', sans-serif;
+	background-color: transparent;
+	color: black;
+}
+
+.button-custom a{
+	text-decoration: none;
+	color: black;
+}
+
+.button-custom:hover{
+	background-color: #61b15a;	
+}
+
+.body-content_1{
+	padding: 200px 0;
+	background-color: #f8f1f1;
+}
+
+.body-content_1 h1{
+	font-size: 35px;
+	font-family: 'PT Sans', sans-serif;
+	transition: 0.2s ease all;
+}
+
+.body-content_1 h1:hover{
+	/* font-size: 36px; */
+	transition: 0.2s ease all;
+
+}
+
+.body-content_1 p{
+	
+}
+
+.body-content_2{
+	padding: 70px 0; 
+	background-color:  #61b15a;
+	color: #f8f1f1;
+}
+
+.body-sub-content_2 h1{
+	font-size: 35px;
+	font-family: 'PT Sans', sans-serif;
+	transition: 0.2s ease all;
+}
+
+.body-sub-content_2 h1:hover{
+	/* font-size: 36px; */
+	transition: 0.2s ease all;
+}
+
+.body-content_2_img{
+	background-image: url(../../img/body-content-img.png);
+	height: 450px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.body-content_3{
+	padding: 60px 0; 
+	background-color: #f8f1f1;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.packages{
+	padding: 0 30px;
+	margin-bottom: 30px;
+}
+
+.card-body{
+	margin: 0;
+	padding: 0;
+}
+
+.card-custom-1, .card-custom-2, .card-custom-3{
+
+}
+
+.card-title-1{
+	color: white;
+	background-color: #52616b;
+	padding: 22px 0;
+	margin: auto;
+
+}
+
+.card-title-2{
+	color: white;
+	background-color: #61b15a;
+	padding: 10px 0;
+	margin: auto;
+}
+
+.card-title-3{
+	color: white;
+	background-color: #71c9ce;
+	padding: 22px 0;
+	margin: auto;
+}
+
+.card-text-custom-1, .card-text-custom-2, .card-text-custom-3{
+	padding: 40px 0;
+}
+
+.card-text-custom-1{
+	background-color: #f0f5f9;
+}
+
+.card-text-custom-2{
+	background-color: #d2f5e3;
+}
+
+.card-text-custom-3{
+	background-color: #e3fdfd;
+}
+
+.list-group li{
+	list-style: none;
+	padding: 10px 0;
+	font-size: 20px;
+}
+
+.card-button-1:hover{
+	background-color: #52616b; 
+}
+
+
+.card-button-2:hover{
+	background-color: #61b15a;
+}
+
+.card-button-3:hover{
+	background-color: #71c9ce;
+	color: white;
+}
+
+.contact{
+	background-image: url(../../img/contact_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 870px;
+}
+
+.contact-text h1{
+	padding-top: 280px;
+	color: #f8f1f1;
+	font-size: 45px;
+	font-family: 'PT Sans', sans-serif;
+	transition: 0.3s ease all;
+}
+
+.contact-text h1:hover{
+	/* font-size: 47px; */
+	transition: 0.3s ease all;
+}
+
+.contact-text p{
+	color: black;#f9fcfb;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.custom-input{
+	opacity: 0.4;
+}
+
+.custom-button, .custom-button a{
+	background-color: transparent;
+	text-decoration: none;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20px;
+	color: black;
+	transition: 0.3s ease all;
+	width: 100% !important;
+}
+
+.custom-button:hover{
+	background-color: #61b15a;
+	color: red !important;
+	transition: 0.3s ease all;
+}
+
+.footer{
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+.footer p{
+	font-size: 18px;
+}
+
+.footer a{
+	text-decoration: none;
+	color: black;
+}
